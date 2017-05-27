@@ -1,0 +1,117 @@
+#foo {
+	opacity: 1.0;
+	transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+}
+
+#foo:hover {
+	opacity: 0.5;
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+}
+
+.row > h3 {
+	text-align: center;
+}
+
+h3 {
+	margin-top: 1em;
+	font-size: 1cm;
+}
+
+.row-odd {
+	background:rgba(255,255,255,0.1);
+}
+
+.col {
+	margin-left: 2em;
+	margin-right: 2em;
+	width: 28em;
+	float: left;
+}
+
+.upload-image {
+	border-radius: 8px;
+	width: 100%;
+}
+
+.verify-button {
+}
+
+.verify-field {
+}
+
+#upload_button {
+    margin-left:4em;
+}
+
+.human_readable_box {
+	height: 380px;
+	border-radius: 8px;
+	border: solid 1px;
+	background: rgba(255, 255, 255, 0.075);
+	border-color: rgba(255, 255, 255, 0.35);
+	text-align: center;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.human_readable_box img {
+	vertical-align: middle;
+}
+
+.human_readable_box h3 {
+
+}
+
+.ui-datepicker {
+	font-size: 13px;
+}
+
+#code_box {
+	height:380px;
+}
+
+#code_box code {
+	margin: 0;
+}
+
+.loader {
+	/*display: block;*/
+}
+
+#switcher {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.input {
+	margin-bottom: 1em;
+	clear: left;
+	vertical-align: baseline;
+	font-size: 20px;
+	padding-bottom: 1em;
+}
+
+.input__field {
+	display: inline;
+	width: 16em !important;
+	font-size: 20px;
+}
+
+.input__label {
+	font-size: 20px;
+	float: left;
+	width: 7em !important;
+	margin: 0 0 0 0  !important;
+	height: 2.75em;
+	padding-top: 11px;
+}
+
+.input__label-content {
+
+}
+
+
